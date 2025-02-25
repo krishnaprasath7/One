@@ -28,3 +28,5 @@ spec:
         image: busybox
         command: ['sh', '-c', 'until nslookup vprocache01.$(cat /var/run/secrets/kubernetes.io/serviceaccount/namespace).svc.cluster.local; do echo waiting for mydb; sleep 2; done;']
 
+
+7564786
